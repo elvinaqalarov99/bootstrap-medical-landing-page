@@ -1,0 +1,48 @@
+:root { --mavi: #6bc2f1 }
+header { background: url('img/headerbg.jpg') center/cover }
+.opacity{ opacity: .9 }
+.mavibg { background-color: var(--mavi) }
+.bozbg{ background-color: #f1f1f1 }
+.mavitxt { color: var(--mavi) }
+.txtcss{ font: .75em/1.5 Roboto }
+.txtcss2{ font: 1em/2 Roboto; color:#edf7fd; }
+.txtcss1{ font: .9em/1.5 Roboto; color: grey; }
+.boztxt{color: #daeefb !important}
+.footerbg{ background-color: #072135 }
+.doctors{ 
+	position: relative;
+	background: #fff url(img/doctors.jpg) center/cover no-repeat;
+	height: 100%;
+ }
+ .doctors::before{
+ 	content: "";
+ 	background-color: var(--mavi);
+ 	position: absolute;
+ 	opacity: .5;
+ 	top:0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+ .children{ 
+	position: relative;
+	background: #fff url(img/children.jpg) center/cover no-repeat;
+	height: 100%;
+ }
+#imgs img{
+	width: 360px;
+	height: 300px;
+	object-fit: contain;
+}
+
+#quote {
+  font-size: 100px;
+  font-family: "Times New Roman";
+  color: rgb( 255, 255, 255 );
+  line-height: 0.22;
+  opacity: 0.902;
+}
+
+textarea{
+	resize: none;
+}
